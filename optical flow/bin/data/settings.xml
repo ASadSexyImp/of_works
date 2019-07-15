@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<group>
+	<pyrScale>0.89</pyrScale>
+	<maxFeatures>610</maxFeatures>
+	<levels>0.01449</levels>
+	<iterations>6</iterations>
+	<polyN>10</polyN>
+	<polySigma>1.6625</polySigma>
+	<OPTFLOW_FARNEBACK_GAUSSIAN>1</OPTFLOW_FARNEBACK_GAUSSIAN>
+	<useFarneback>0</useFarneback>
+	<winSize>38</winSize>
+	<maxLevel>7</maxLevel>
+	<minDistance>4</minDistance>
+</group>
