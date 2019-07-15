@@ -13,6 +13,7 @@ void ofApp::update(){
     
     // 新しいところを検出できたら
     if(cam.isFrameNew()) {
+        contour.setThreshold(ofMap(mouseX, 0, ofGetWidth(), 0, 255));
         // カメラの中の輪郭を保存する
         contour.findContours(cam);
     }
